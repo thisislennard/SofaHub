@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kiosk_service_label">Sofa Hub Hintergrunddienst</string>
+    <string name="kiosk_service_description">Kiosk-Modus (Start beim Einschalten, Home-Taste führt zu Sofa Hub) und Automationen (Aktionen in Home Assistant beim Aus-/Einschalten und beim Öffnen von Apps). Wertet nur aus, welche App im Vordergrund ist; liest keine Bildschirminhalte.</string>
+</resources>

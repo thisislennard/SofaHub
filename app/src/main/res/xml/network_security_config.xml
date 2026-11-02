@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Klartext muss plattformseitig erlaubt sein, weil die Adresse einer lokalen HA-Instanz erst bei der Einrichtung
+  bekannt ist (domain-config kann keine Laufzeit-Hosts). Die Beschränkung passiert im Code:
+  - HA-Client: http nur, wenn der Nutzer es bei der Einrichtung ausdrücklich bestätigt (HaUrl / HaHttp).
+  - GitHub-/Update-Client: ausschließlich https, Redirects nur auf erlaubte GitHub-Hosts (HttpsOnlyInterceptor).
+  Zertifikate: nur System-CAs, keine Nutzer-CAs, kein Trust-All.
+-->
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <base-config cleartextTrafficPermitted="true" tools:ignore="InsecureBaseConfiguration">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

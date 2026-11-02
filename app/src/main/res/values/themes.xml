@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SofaHub" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/sh_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackground">@color/sh_bg</item>
+        <item name="android:statusBarColor">@color/sh_bg</item>
+        <item name="android:navigationBarColor">@color/sh_bg</item>
+    </style>
+</resources>

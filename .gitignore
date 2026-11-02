@@ -1,0 +1,24 @@
+# Gradle / Android Studio
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Geheimnisse – niemals einchecken
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+*.lineage
+
+# Lokale Ausgaben
+release/
+*.apk
+*.aab
+*.log

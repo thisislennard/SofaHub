@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sh_bg">#FF181715</color>
+    <color name="sh_icon_start">#FF2DD4BF</color>
+    <color name="sh_icon_end">#FF7C6CF6</color>
+</resources>
